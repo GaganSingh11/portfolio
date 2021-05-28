@@ -1,0 +1,103 @@
+/*!
+  * Item: CodeX
+  * Description:  Personal Portfolio / Resume / CV / vCard Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v1.0.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+
+/*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+#exp-container {
+  display: flex;
+  background-color:#fff;
+}
+
+.timeline-left {
+  margin: 90px auto;
+  width: 360px;
+  border-left: 2px solid red;
+  padding: 0 20px 0 30px;
+}
+.timeline-right {
+  margin: 90px auto;
+  width: 360px;
+  border-left: 2px solid red;
+  padding: 0 20px 0 30px;
+}
+
+.content {
+  background-color: rgba(214, 214, 214, 0.8);
+  padding: 10px 25px;
+  font-size: 16px;
+  border: 1px solid rgba(214, 214, 214, 0.8);
+  line-height: 1.7;
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+}
+.content::before{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius:50% ;
+  background-color: #fff;
+  border: 2px solid red;
+  position: absolute ;
+  top: 10px;
+  left: -42px;
+
+}
+.content::after{
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent rgba(214, 214, 214, 0.8) transparent transparent;
+  border-width: 8px;
+  position: absolute;
+  left: -17px;
+  top: 10px;
+
+
+}
+.content h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: large;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  
+}
+.content h3 {
+  margin: 0;
+  font-size: medium;
+  /* text-transform: uppercase; */
+  /* font-family: poppins; */
+}
+.content h4 {
+  margin: 0;
+  font-size: small;
+  /* text-transform: uppercase; */
+  /* font-family: poppins; */
+}
+
+.work-symbols {
+  display: flex;
+  /* height: 200px; */
+  height: 15px;
+}
+
+.work-icon1 img {
+  width: 88px;
+  margin-left: 78px;
+}
+.work-icon2 img {
+  width: 88px;
+  margin-left: 447px;
+}
+
+.single-service  img {
+  width: 76px;
+}
+
